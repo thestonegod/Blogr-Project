@@ -254,6 +254,7 @@ body{
     padding-bottom: -300px;
     
 }
+
 /*Usability*/
 .usability-mobile{
     display: flex;
@@ -274,6 +275,10 @@ body{
     color: hsl(207, 13%, 34%);
     justify-content: center;
     align-items: center;
+}
+
+.usability-mobile .powerful{
+    padding-top: 50px;
 }
 footer{
     background-color: hsl(240, 10%, 16%);
@@ -436,15 +441,19 @@ footer{
      position: relative;
      left: -205px;
     }
-    /*Footer*/
-    
 
+    /*Powerful tooling*/
+    .powerful{
+
+    }
+
+    /*Footer*/
     .footer-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
     }
     .footer-nav{
         display: flex;
